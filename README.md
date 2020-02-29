@@ -1,4 +1,4 @@
-# With Firebase Hosting example
+# nextjs-contextapi-example with Firebase Hosting example
 
 The goal is to host the Next.js app on Firebase Cloud Functions with Firebase Hosting rewrite rules so our app is served from our Firebase Hosting URL. Each individual `page` bundle is served in a new call to the Cloud Function which performs the initial server render.
 
@@ -103,4 +103,4 @@ If using `_app.js` you may receive the following error on your deployed Cloud Fu
 ```
 
 Despite next.js having `@babel/runtime` as a dependency, you must install it as a dependency directly in this project.
-# nextjs-contextapi-example
+
